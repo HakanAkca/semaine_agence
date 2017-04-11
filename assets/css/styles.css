@@ -1,0 +1,1634 @@
+@-webkit-keyframes opacity_anm {
+  0% {
+    opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+@keyframes opacity_anm {
+  0% {
+    opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+         
+         .opacity_anm{
+            -webkit-animation-name: opacity_anm;
+            animation-name: opacity_anm;
+         }
+@-webkit-keyframes opacity_on {
+  0% {
+    opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+@keyframes opacity_on {
+  0% {
+    opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+         
+         .opacity_on{
+            -webkit-animation-name: opacity_on;
+            animation-name: opacity_on;
+         }
+
+         @-webkit-keyframes bounceInDown {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateY(30px);
+            }
+
+            100% { 
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes bounceInDown {
+            0% {
+               opacity: 0;
+               transform: translateY(-2000px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateY(30px);
+            }
+
+            100% {
+               transform: translateY(0);
+            }
+         }
+         
+         .bounceInDown {
+            -webkit-animation-name: bounceInDown;
+            animation-name: bounceInDown;
+         }
+
+         @-webkit-keyframes bounceInRight {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateX(2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateX(-30px);
+            }
+            80% {
+               -webkit-transform: translateX(10px);
+            }
+            100% {
+               -webkit-transform: translateX(0);
+            }
+         }
+         
+         @keyframes bounceInRight {
+            0% {
+               opacity: 0;
+               transform: translateX(2000px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateX(-30px);
+            }
+            80% {
+               transform: translateX(10px);
+            }
+            100% {
+               transform: translateX(0);
+            }
+         }
+         
+         .bounceInRight {
+            -webkit-animation-name: bounceInRight;
+            animation-name: bounceInRight;
+         }
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../font/Myriad-Pro-Semibold-Condensed_31644.ttf");
+}
+
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url("../font/MyriadPro-Bold.otf");
+}
+
+#scroll-animate
+{
+  overflow: hidden;
+}
+
+#scroll-animate-main
+{
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#accueil{
+        -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out ;
+    -webkit-transition: all 0.7s  ease-in-out;
+    -ms-transition: all 0.7s ease-in-out ;
+    transition: all 0.7s ease-in-out; 
+}
+
+#slide2{
+    background: url("../img/patern_slide3.jpg");
+}
+
+#heightPage
+{
+  left: 0;
+}
+
+#heightScroll
+{
+  right: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 100%;
+  background: url("../img/bg.jpg") no-repeat center fixed;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  z-index: -1;
+}
+
+footer
+{
+  width: 100%;
+  height: 300px;
+  background: gray;
+  bottom: -300px;
+  position: fixed;
+  z-index: -1;
+}
+
+#slide1{
+  background: url("../img/patern-slide1.png");
+}
+
+#slide3{
+  background: url("../img/patern_slide41.jpg");
+}
+
+#myHr3{
+    width: 474px;
+    background-color: white;
+    height: 5px;
+    top: 17%;
+    left: 39%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+#myHr10{
+        width: 550px;
+    background-color: #676767;
+    height: 5px;
+    position: absolute; 
+    top: 17%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#txt4{
+    position: relative;
+    width: 499px;
+    height: 300px;
+    font-family: "Myriad Pro";
+    color: white;
+    line-height: 36px;
+    font-size: 27px;
+    bottom: 88px;
+}
+
+#arrowInterface{
+    position: absolute;
+    bottom: 11%;
+    right: 48%;
+    width: 144px;
+}
+
+#arrowInterface:hover{
+        cursor: pointer;
+}
+
+#borne{
+  width: 244px;
+    position: absolute;
+    top: 16%;
+    left: 6%;
+}
+
+#title4{
+    position: relative;
+    bottom: 34px;
+    right: 110Px;
+}
+
+#bornewoman{
+    position: relative;
+    bottom: 570px;
+    left: 596px;
+}
+
+#paraslide4{
+    position: absolute;
+    top: 7%;
+    width: 668px;
+    left: 18%;
+}
+
+#titleSlide4{
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 118px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 569px;
+    width: 65%;
+    text-align: left;
+    letter-spacing: -3px;
+    color: white;
+}
+
+.content
+{
+  height: 1000px;
+  min-height: 1000px;
+  background: url("../img/nike-bg.jpeg");
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper-parallax {
+  margin-top: 100%;
+  margin-bottom: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 150px;
+  color: #fff;
+}
+
+ul{
+    color: white;
+    position: absolute;
+    right: 0;
+    height: 50px;
+margin-right: 170px;
+    top: 0;
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+}
+
+ul li{
+padding-right: 10px;
+    font-size: 23px;
+    margin-right: 65px;
+    font-family: 'Abel', sans-serif;
+
+}
+
+#interfaceOne{
+                -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+.sexe{
+font-family: "Myriad Pro";
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 24px #3C3C3C;
+
+}
+
+.sexe:active{
+    text-shadow: 0px 1px 24px #e60645;
+}
+
+#man{
+    position: relative;
+    bottom: 657px;
+    right: 129px;
+}
+
+#woman{
+    position: relative;
+    bottom: 629px;
+    right: 101px;
+}
+
+#kid{
+position: relative;
+    bottom: 600px;
+    right: 124px;
+}
+
+.sexe:hover{
+    cursor: pointer;
+}
+
+#interfaceTwo{
+    display: none;
+                -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+#imggame{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+    position: relative;
+    top: 229px;
+    width: 386px;
+}
+
+#imgcarou{
+        -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+    position: relative;
+    top: 229px;
+    width: 389px;
+}
+
+#interfaceSix{
+    display: none;
+    -webkit-animation-duration: 2s;
+     animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+#imgdeco{
+        -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+    position: relative;
+    top: 229px;
+    width: 389px;
+}
+
+#imgdecoresult{
+        -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: none;
+    position: relative;
+    top: 229px;
+    width: 389px;
+}
+
+.gamme{
+    display: none;
+    position: relative;
+    bottom: 790px;
+    right: 139px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: #D3D3D3;
+    text-shadow: 0px 0px 0px #bfbfbf;
+    text-transform: uppercase;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#retour{
+    right: 139px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+    position: relative;
+    bottom: 995px;
+}
+
+#option{
+    position: relative;
+    bottom: 1131px;
+    left: 130px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+}
+
+#optionfinal{
+    position: relative;
+    bottom: 1131px;
+    left: 130px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+}
+
+#pdecor{
+    right: 128px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+    position: relative;
+    bottom: 791px;
+}
+
+#pcolor{
+    right: -108px;
+height: 179px;
+    z-index: 999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #bfbfbf;
+    position: relative;
+    bottom: 867px;
+}
+
+#option:hover{
+    cursor: pointer;
+}
+
+#retour:hover{
+    cursor: pointer;
+}
+
+#photo{
+position: relative;
+    height: 38px;
+    bottom: 1065px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 129px;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 1px 1px #707070;
+}
+
+#photofinal{
+position: relative;
+    height: 38px;
+    bottom: 1065px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 129px;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999;
+    font-family: "MyriadPro-Bold";
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 1px 1px #707070;
+}
+
+.mood{
+font-family: "MyriadPro-Bold";
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 1px 1px #707070;
+}
+
+.gamme:active{
+    color: #FFFFFF;
+    text-shadow : 1px 1px 1px #000000;
+}
+
+.gamme:hover{
+    cursor: pointer;
+}
+
+#sport{
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 38px;
+    padding-top: 227px;
+    bottom: 865px;
+    width: 386px;
+    z-index: 99;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.activesport{
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+#lifestyle{
+    display: none;
+    position: relative;
+    bottom: 861px;
+    z-index: 99;
+    left: -3px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#centerme{
+    position: absolute;
+    bottom: 0%;
+    text-align: -webkit-center;
+    width: 100%;
+    height: 100%;
+}
+
+
+#interfaceThree{
+    display: none;
+    -webkit-animation-duration: 2s;
+     animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+#interfaceFive{
+    display: none;
+    -webkit-animation-duration: 2s;
+     animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+#interfaceFour{
+    display: none;
+    -webkit-animation-duration: 2s;
+     animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+#centerMe{
+text-align: center;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 49%;
+}
+
+#goToSlideTwo{
+    height: 137px;
+    width: 135px;
+    border: none;
+    background: none;
+}
+
+.circle {
+border: 4px solid white;
+    border-radius: 70%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+    box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+    width: 122px;
+    height: 118px;
+    z-index: 86;
+    background: url("../img/fleche_blanche.png") no-repeat center;
+background-size: 83px 56px;
+    -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -o-transition: background-color .5s ease-in-out;
+    -ms-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+}
+
+.description{
+font-family: "Myriad Pro";
+    position: relative;
+    bottom: 860px;
+    margin-left: 73%;
+    text-align: start;
+    width: 401px;
+    color: white;
+    font-size: 26px;
+}
+
+.description2{
+    font-family: "Myriad Pro";
+    position: relative;
+    bottom: 1047px;
+    margin-left: 70%;
+    text-align: start;
+    width: 401px;
+    color: white;
+    font-size: 26px;
+}
+
+
+#text-direction {
+     writing-mode: vertical-rl;
+     text-orientation: sideways;
+    -webkit-text-orientation: sideways;
+     position: absolute;
+     font-family: "Myriad Pro";
+     font-weight: bold;
+     font-size: 118px;
+     letter-spacing: -3px;
+     margin-right: 82%;
+     top: 15%;
+     color: #b2fb3f;
+ }
+
+ #titre-slide1 {
+     position: absolute;
+     top: 12%;
+  font-family: "MyriadPro-Bold";
+     font-weight: bold;
+     font-size: 35px;
+     left: 20%;
+     color: white;
+ }
+
+ #centerthepara{
+     text-align: center;
+ }
+
+#txt {
+    width: 750px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 25px;
+    top: 20%;
+    left: 20%;
+}
+
+    #txt1 {
+    width: 750px;
+    font-size: 26px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    top: 44%;
+    left: 20%;
+}
+
+
+#goToSlideTwo:focus{
+  outline: none;
+}
+
+.circle:hover{
+  border: 4px solid #b2fb3f ;
+      -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out ;
+    -webkit-transition: all 0.7s  ease-in-out;
+    -ms-transition: all 0.7s ease-in-out ;
+    transition: all 0.7s ease-in-out;
+}
+
+#logo{
+    height: 35px;
+    position: absolute;
+    left: 130px;
+    top: 10px;
+}
+
+.opacity{
+      opacity: 0.8;
+      -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out ;
+    -webkit-transition: all 0.7s  ease-in-out;
+    -ms-transition: all 0.7s ease-in-out ;
+    transition: all 0.7s ease-in-out;
+              -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    top : 0;
+}
+
+nav{
+  display: none;
+width: 100%;
+z-index: 99999999999999999;
+      -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out ;
+    -webkit-transition: all 0.7s  ease-in-out;
+    -ms-transition: all 0.7s ease-in-out ;
+    transition: all 0.7s ease-in-out;
+    position: fixed;
+    top: 35px;
+    height: 60px;
+    background-color: black;
+}
+
+.active{
+color: #b2fb3f;
+    height: 30px;
+    position: relative;
+    line-height: 52px;
+    top: -14px;
+    border-top: 3px solid #b2fb3f;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#logogreen{
+    position: absolute;
+    width: 283px;
+    right: 50%;
+    left: 43%;
+    top: 253px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+#slogan{
+    color : white;
+    font-size: 67px;  
+  font-family: "MyriadPro-Bold";
+
+}
+
+header h1{}
+
+.content h1{
+  line-height: 1000px;
+  color: #999;
+}
+
+footer h1
+{
+  line-height: 300px;
+}
+
+header,
+footer,
+#scroll-animate-main
+{
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+     -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+#shoesback {
+    top: 53%;
+    position: absolute;
+    left: 50%;
+}
+
+#slide1>div:nth-of-type(3){
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 100px;
+    width: 100%;
+    height: 1600px;
+    background: url(../img/chaussurefront.png) 50% 0 no-repeat fixed;
+    background-position-x: 101%;
+    background-position-y: 95%;
+    z-index: 11;
+              -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+#slide1>div:nth-of-type(2){
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 100px;
+    width: 100%;
+    height: 1600px;
+    background: url(../img/chaussureback.png) 50% 0 no-repeat fixed;
+    background-position-x: 65%;
+    background-position-y: 79%;
+    z-index: 11;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+ #myHr{
+     width: 500px;
+     background-color: #b2fb3f;
+     height: 5px;
+     position: absolute;
+     top: 20%;
+     left: 20%;
+     border-radius: 10px;
+ }
+
+#text-direction2 {
+    writing-mode: vertical-rl;
+    color: white;
+    text-orientation: sideways;
+-webkit-text-orientation: sideways;
+    position: relative;
+    bottom: 18px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 118px;
+}
+
+ #titre-slide2 {
+     top: 9.3%;
+  font-family: "MyriadPro-Bold";
+     font-weight: bold;
+     font-size: 35px;
+     right: 20%;
+     color: white;
+ }
+
+ #myHr2{
+    width: 749px;
+     background-color: white;
+     height: 5px;
+     top: 17%;
+     left: 39%;
+     border-radius: 10px;
+ }
+
+ #txt3 {
+     width: 750px;
+     font-family: "Myriad Pro";
+     color: #392c2a;
+    line-height: 45px;
+    font-size: 25px;
+     top: 18%;
+     left: 19%;
+     text-align: right;
+ }
+
+ #divIdea{
+    position: absolute;
+    display: flex;
+    text-align: right;
+    top : 12%;
+    right: 0;
+ }
+
+ #paraslide3{
+    width: 751px;
+    position: relative;
+    left: 62px;
+ }
+
+ #chaussetteenroulees{
+   position: absolute;
+    bottom: 8%;
+    left: 4%;
+ }
+
+ .wrapper {
+    position: relative;
+    display: inline-block;
+    width: 451px;
+    height: 197px;
+}
+.slider-middle {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    left: 30%;
+    bottom: 10%;
+    z-index: 100;
+    transition-duration: 1s;
+}
+.slider-left-1 {
+    position: absolute;
+    width: 20%;
+    height: 35%;
+    left: 12%;
+    bottom: 15%;
+    z-index: 99;
+    opacity: 0.9;
+    transition-duration: 1s;
+
+    color: #fff;
+}
+.slider-left-2 {
+    position: absolute;
+    width: 14%;
+    height: 22%;
+    left: 0;
+    bottom: 18%;
+    z-index: 98;
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+.slider-right-1 {
+    position: absolute;
+    width: 20%;
+    height: 35%;
+    left: 68%;
+    bottom: 15%;
+    z-index: 99;
+    opacity: 0.9;
+    transition-duration: 1s;
+}
+.slider-right-2 {
+    position: absolute;
+    width: 14%;
+    height: 22%;
+    left: 86%;
+    bottom: 18%;
+    z-index: 98;
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+
+.slider-hide {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition-duration: 1s;
+}
+#slider-btn {
+display: block;
+    position: relative;
+    bottom: 292px;
+}
+
+#slider-btn .prev-btn {
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    z-index: 200;
+    cursor: pointer;
+}
+#slider-btn .next-btn {
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.arr-right {
+width: 100px;
+    left: 49px;
+    position: relative;
+    bottom: 34px;
+}
+.arr-left {
+    width: 100px;
+    left: -132px;
+    position: relative;
+    bottom: 34px;
+}
+
+#rotate-slider {
+    display: none;
+}
+
+#nikeShoes{
+    position: relative;
+    bottom: 997px;
+    right: 3px;
+    width: 157px;
+}
+
+.description5{
+        font-family: "Myriad Pro";
+    position: relative;
+    bottom: 662px;
+    margin-left: 70%;
+    text-align: start;
+    width: 401px;
+    color: white;
+    font-size: 26px;
+}
+
+#footerimg {
+    right: 3.8%;
+    position: absolute;
+    bottom: 0;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    color: white;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#copy {
+    bottom: 0;
+    left: 5.5%;
+    position: absolute;
+
+}
+
+#text-direction3 {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+-webkit-text-orientation: sideways;
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 151px;
+    letter-spacing: -3px;
+    margin-right: 82%;
+    top: 12%;
+    color: white;
+text-shadow : #a43430 1px 1px 1px;
+}
+
+#slidetitre {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+
+#slidetitre1 {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    margin-top: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+
+#slidetitre2 {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    margin-top: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+#slidetitre3 {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    margin-top: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+
+#slidetitre4 {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    margin-top: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+
+#menu{
+    text-align: right;
+        position: absolute;
+z-index: 9999999999999999;
+    top: 6%;
+    right: 4%;
+}
+
+#slidetitre:hover{
+    padding-right: 30px;
+    transition: all 0.7s;
+    color: white;
+    cursor: pointer;
+text-shadow : #b53d3b  1px 1px 1px ;
+}
+
+#slidetitre1:hover{
+    padding-right: 30px;
+    transition: all 0.7s;
+    cursor: pointer;
+    color: white;
+text-shadow : #b53d3b  1px 1px 1px ;
+}
+
+#slidetitre4:hover{
+    padding-right: 30px;
+    transition: all 0.7s;
+    cursor: pointer;
+    color: white;
+text-shadow : #b53d3b  1px 1px 1px ;
+}
+
+#slidetitre2:hover{
+    padding-right: 30px;
+    transition: all 0.7s;
+    cursor: pointer;
+    color: white;
+text-shadow : #b53d3b  1px 1px 1px ;
+}
+
+#slidetitre3:hover{
+    padding-right: 30px;
+    color: white;
+    transition: all 0.7s;
+    cursor: pointer;
+text-shadow : #b53d3b  1px 1px 1px ;
+}
+
+#slidetitre4:hover{
+    color: white;
+text-shadow : #b53d3b  1px 1px 1px ;
+    padding-right: 30px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+#slidetitre4 {
+    font-family: "MyriadPro-Bold";
+    margin-bottom: 1px;
+    margin-top: 1px;
+    transition: all 0.7s;
+    font-weight: bold;
+    font-size: 65px;
+    color: #ffbcbb;
+text-shadow : #b53d3b 1px 1px 1px;
+}
+
+#myHr3 {
+    width: 550px;
+    background-color: #676767;
+    height: 5px;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#myHr4 {
+    width: 550px;
+    background-color: #676767;
+    height: 5px;
+    position: absolute;
+    top: 44%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+#txt5 {
+    width: 550px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 18px;
+    top: 45%;
+    left: 20%;
+}
+
+#myHr5 {
+    width: 550px;
+    background-color: #676767;
+    height: 5px;
+    position: absolute;
+    top: 72%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+.gras{
+font-weight: bolder;
+    text-shadow: white 1px 1px 1px;
+    color: #e04b49;
+    text-transform: uppercase;
+}
+
+#txt6 {
+    text-align: left;
+    word-break: break-word;
+    padding-left: 59px;
+    line-height: 34px;
+    height: 404px;
+    font-family: "Myriad Pro Regular";
+    color: #3f1716;
+    letter-spacing: 0.6px;
+    width: 622px;
+    position: relative;
+    top: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vh;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+#centerthepara{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#blockblanc {
+    position: absolute;
+    width: 500px;
+    height: 810px;
+    background-color: white;
+    right: 10%;
+    top: 12%;
+}
+
+#place {
+    position: absolute;
+    right: 15%;
+    bottom: 8%;
+}
+
+#slide4{
+    background: url(../img/patern_slide_com.jpg);
+    background-size: 100% 100%;
+}
+
+#txt7 {
+    width: 550px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 18px;
+    top: 18%;
+    left: 20%;
+}
+
+
+@media screen and (min-width: 641px) and (max-width : 1024px){
+
+  .gifHead{
+      height: 65%;
+      background: url(../img/supagency.gif) 100% 100% no-repeat;
+    position: absolute;
+    z-index: -1;
+    bottom : 31%;
+    right: 0;
+    width: 100%;
+  }
+  ul li{
+        padding-right: 24px;
+    font-size: 45px;
+    font-family: 'Abel', sans-serif;
+  }
+  ul{
+        color: white;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    margin-right: 32px;
+    top: 0;
+    text-decoration: none;
+    display: inline-flex;
+    list-style: none;
+  }
+
+  nav{
+    width: 100%;
+    z-index: 99999999999999999;
+    position: fixed;
+    top: 0;
+    height: 90px;
+    background-color: black;
+  }
+
+  .active{
+    color: #b2fb3f;
+    padding-right: 0px;
+    padding-top: 15px;
+    margin-right: 29px;
+    height: 32px;
+    padding-bottom: 24px;
+  }
+
+  #txt3 {
+    width: 694px;
+    font-family: "Myriad Pro";
+    color: black;
+    font-size: 26px;
+    padding-left: 29px;
+    margin-left: 26px;
+    top: 18%;
+    left: 19%;
+    text-align: right;
+}
+
+#bornewoman {
+    width: 352px;
+    position: relative;
+    bottom: 432px;
+    left: 464px;
+}
+
+.description {
+    font-family: "Myriad Pro";
+    position: relative;
+    bottom: 860px;
+    margin-left: 76%;
+    text-align: start;
+    width: 247px;
+    color: white;
+    font-size: 26px;
+}
+
+.description2 {
+    font-family: "Myriad Pro";
+    position: relative;
+    bottom: 1144px;
+    margin-left: 76%;
+    text-align: start;
+    width: 240px;
+    color: white;
+    font-size: 26px;
+}
+
+#nikeShoes {
+    position: relative;
+    bottom: 1185px;
+    right: 3px;
+    width: 157px;
+}
+
+.description5 {
+    font-family: "Myriad Pro";
+    position: relative;
+    bottom: 705px;
+    margin-left: 77%;
+    text-align: start;
+    width: 199px;
+    color: white;
+    font-size: 26px;
+}
+
+    header {
+        background: url(../img/nike_test.jpg);
+        top: 0;
+        position: fixed;
+        z-index: -1;
+        background-size: 100% 100%;
+    }
+    #logogreen {
+        display: none;
+    }
+
+    #slogan {
+        display: none;
+    }
+
+    .shoes {
+        display: none;
+    }
+    
+    .shoes2 {
+        display: none;
+    }
+
+    .content {
+        height: 1000px;
+        min-height: 1000px;
+        position: relative;
+        z-index: 1;
+    }
+
+    ul li{
+            margin-right: -7px;
+    }
+
+    #text-direction {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+-webkit-text-orientation: sideways;
+        position: absolute;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        font-size: 127px;
+        letter-spacing: -3px;
+        margin-right: 82%;
+        top: 15%;
+        color: #b2fb3f;
+    }
+
+    #titre-slide1 {
+        position: absolute;
+        top: 12%;
+        font-family: "MyriadPro-Bold";
+        font-weight: bold;
+        font-size: 45px;
+        left: 20%;
+        color: white;
+    }
+
+    #myHr {
+    width: 746px;
+        background-color: #b2fb3f;
+        height: 5px;
+        position: absolute;
+        top: 21%;
+        left: 20%;
+        border-radius: 10px;
+    }
+
+    #txt1 {
+    width: 750px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 26px;
+    top: 50%;
+    left: 20%;
+}
+
+#txt {
+    width: 750px;
+    position: absolute;
+    font-family: "Myriad Pro";
+    color: white;
+    font-size: 26px;
+    top: 20%;
+    left: 20%;
+}
+
+    #slide1>div:nth-of-type(2) {
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 100px;
+    width: 100%;
+    height: 1600px;
+    background: url(../img/chaussureback.png) 50% 0 no-repeat fixed;
+    background-position-x: 27%;
+    background-position-y: 48%;
+    z-index: 11;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#slide1>div:nth-of-type(3) {
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 100px;
+    width: 100%;
+    height: 1600px;
+    background: url(../img/chaussurefront.png) 50% 0 no-repeat fixed;
+    background-position-x: 103%;
+    background-position-y: 48%;
+    z-index: 11;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#titleSlide4 {
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 118px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 569px;
+    width: 88%;
+    text-align: left;
+    letter-spacing: -3px;
+    color: white;
+}
+
+#txt6 {
+    text-align: left;
+    word-break: break-word;
+    padding-left: 0;
+    line-height: 26px;
+    height: 411px;
+    font-family: "Myriad Pro Regular";
+    color: #3f1716;
+    letter-spacing: 0.6px;
+    width: 336px;
+    position: relative;
+    top: 41%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+}
